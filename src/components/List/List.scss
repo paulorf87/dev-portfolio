@@ -1,0 +1,18 @@
+@import "/src/styles/variables"; 
+.list {
+    font-size: .9rem;
+    opacity: .6;
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: .5em;
+        padding-bottom: .5em;
+        border-bottom: 1px solid rgba($trd-color, 0.15);
+        text-align: right;
+        span {
+            margin-left: .5em;
+        }
+    }
+}

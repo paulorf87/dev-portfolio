@@ -1,0 +1,19 @@
+@import "/src/styles/variables"; 
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: .5em;
+    gap:10px;
+    
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px;
+}
+@media(min-width:675px){
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}

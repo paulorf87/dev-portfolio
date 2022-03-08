@@ -1,0 +1,14 @@
+@import "/src/styles/variables"; 
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:680px){
+    .home {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+}

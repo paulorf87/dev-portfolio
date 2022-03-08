@@ -1,0 +1,25 @@
+@import "./variables"; 
+
+* {
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+    color:$light-color;
+    font-family:$primary-font;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+body{
+    background: linear-gradient(to bottom right, $prim-color, darken($trd-color,40)) no-repeat;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.app {
+    min-height: 100vh;
+    height: 100%;
+}

@@ -1,0 +1,35 @@
+@import "/src/styles/variables"; 
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: fit-content;
+    transition: opacity 1s ease;
+    opacity: 0;
+    &.active {
+        opacity: 1;
+    }
+    .slide-img {
+        object-fit: fill;
+        margin:0 auto; 
+        width: 50vw;
+        height: calc(70vw/2);
+    }
+    .arrow-right{
+        position: absolute;
+        top:50%; 
+        left:-2em;
+        fill: $qua-color;
+        font-size: 2.5rem;
+    }
+    .arrow-left{
+        position: absolute;
+        top:50%; 
+        right:-2em;
+        fill:$qua-color;
+        font-size: 2.5rem; 
+    }
+}

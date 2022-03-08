@@ -1,0 +1,13 @@
+.side-skills {
+    padding:1em;
+    .side-skills-row{
+        display: flex;
+        justify-content: space-between;
+        .right {
+            margin-left: 1.25em;
+        }
+    }    
+    h2 {
+        margin-bottom: 1.5em;
+    }
+}

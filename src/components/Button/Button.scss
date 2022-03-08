@@ -1,0 +1,15 @@
+@import "/src/styles/variables"; 
+
+.btn {
+    background: transparent;
+    padding: .5em 1em; 
+    font-size: 1.2rem;
+    border: 1px solid $qua-color;
+    color:$qua-color;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background: $qua-color;
+        color:$prim-color;
+    }
+}
