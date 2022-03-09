@@ -7,16 +7,27 @@
     left:0;
     bottom:0;
     right:0;
-    width: 80vw;
+    width: 80vw; // Fix Width >> include MAX Width in PX
+    max-width: 500px;
     height: 80vh;
     background: rgba($prim-color, 0.9);
     text-align: center;
     border-radius: 20px;
-    padding-top:2em;
+    padding: 2em; 
     &-form {
         display: flex;
         flex-direction: column;
-        width: 50%;      
         text-align: left;  
+        label {
+            margin-top: 2em;
+        }
+        input, textarea {
+            margin-top: 1em;
+            padding-left:.5em;
+            color:$prim-color;
+        }
+        Button {
+            margin: 1em;
+        }
     }
 }

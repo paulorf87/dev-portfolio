@@ -17,7 +17,8 @@ const data ={
         "UML",   
         "Git | GitHub", 
         "Web Development", 
-        "Data Science"
+        "Data Science", 
+        "Postman"
     ]
 } 
     
