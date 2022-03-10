@@ -1,18 +1,21 @@
 import React from "react";
-import Box from "@mui/material/Box"; 
-import TextField from "@mui/material/TextField";  
+// import Box from "@mui/material/Box"; 
+// import TextField from "@mui/material/TextField";  
 
-import Button from "@mui/material/Button"
+import Button from "@mui/material/Button"; 
+import  CloseIcon  from "@mui/icons-material/Close";
 
 import "./Contact.scss"; 
 
 
-const Contact = () => {
+const Contact = ({handleContactClose}) => {
 
     return <div className="contact">
-        <h1>Contact</h1>
+        <div className="contact-header">
+            <h1>Contact</h1>
+            <CloseIcon className="close-button" onClick={handleContactClose}/>
+        </div>
         <form className="contact-form">
-            
             <label>Name</label>
             <input type="text" placeholder="Enter Name"/>
             <label>Company</label>

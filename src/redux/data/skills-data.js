@@ -39,8 +39,9 @@ export const skills = {
     data: [
       { id: "1", title: "AWS DynamoDB" },
       { id: "2", title: "AWS Lambda" },
-      { id: "3", title: "AWS API Gateway" },
-      { id: "4", title: "Google Firestore" },
+      { id: "3", title: "AWS Amplify" },
+      { id: "4", title: "AWS API Gateway" },
+      { id: "5", title: "Google Firestore" },
     ],
   },
 };

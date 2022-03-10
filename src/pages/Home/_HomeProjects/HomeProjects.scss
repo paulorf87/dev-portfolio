@@ -1,7 +1,6 @@
 @import "/src/styles/variables"; 
 
 .home-projects {
-    
     margin:auto; 
     position: absolute;
     top:0;
@@ -19,5 +18,22 @@
         margin:0 auto;
         padding-top:2em; 
     }
-    
+    .home-projects-header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        
+        .close-button{
+            position: absolute;
+            top:0;
+            right:2em;
+            font-size: 2rem;
+            transition: fill .25s ease-in;
+            &:hover{
+                fill:$qua-color;
+                cursor: pointer;
+            }
+        }
+    }
 }

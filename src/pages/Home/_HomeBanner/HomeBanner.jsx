@@ -14,6 +14,7 @@ const HomeBanner = () => {
     const [contactOpen, setContactOpen]=useState(false); 
     const handleOpen = () => setOpen(true); 
     const handleClose = () => setOpen(false);
+    const handleContactClose = () =>setContactOpen(false); 
 
     return <header className="home-banner">
         <div className="home-banner-text">
@@ -31,12 +32,12 @@ const HomeBanner = () => {
         </div>
         <Modal open={contactOpen} onClose={()=>setContactOpen(false)}>
             <div className="box">
-                <Contact/>
+                <Contact handleContactClose={handleContactClose}/>
             </div>
         </Modal>
         <Modal open={open} onClose={handleClose}>
-            <div className="box" onClick={()=>console.log("closed modal")}>
-                <HomeProjects/>
+            <div className="box">
+                <HomeProjects handleClose={handleClose}/>
             </div>
         </Modal>
         <img src="/img/banner.svg" alt="" className="home-banner-img"/>

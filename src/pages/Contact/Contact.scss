@@ -30,4 +30,21 @@
             margin: 1em;
         }
     }
+
+    .contact-header {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .close-button {
+            position: absolute;
+            top:0;
+            right:.25em;
+            font-size: 2rem;
+            transition: fill .25s ease-in;
+            &:hover{
+                fill:$qua-color;
+                cursor: pointer;
+            }
+        }
+    }
 }
