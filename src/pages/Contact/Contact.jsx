@@ -1,6 +1,5 @@
-import React from "react";
-// import Box from "@mui/material/Box"; 
-// import TextField from "@mui/material/TextField";  
+import React, {useRef} from "react";
+import emailjs from "@emailjs/browser";   
 
 import Button from "@mui/material/Button"; 
 import  CloseIcon  from "@mui/icons-material/Close";
@@ -9,22 +8,34 @@ import "./Contact.scss";
 
 
 const Contact = ({handleContactClose}) => {
+    const form = useRef(); 
+
+    const sendEmail = (e)=> {
+        e.preventDefault(); 
+        emailjs.sendForm('service_6yy9mxn', 'template_isb6exc',
+        form.current, 'ZxNps2BHQ6RvNRLaO').then(
+            (result)=>{
+                console.log(result.text); 
+                console.log(form.current); 
+            }, (err)=>{console.log(err.text)}
+        ); 
+    }
 
     return <div className="contact">
         <div className="contact-header">
             <h1>Contact</h1>
             <CloseIcon className="close-button" onClick={handleContactClose}/>
         </div>
-        <form className="contact-form">
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" placeholder="Enter Name"/>
-            <label>Company</label>
-            <input type="text" placeholder="Company Name Here"/>
+            <input type="text" placeholder="Enter Name" name="name"/>
+            <label>Email</label>
+            <input type="text" placeholder="Email Here" name="email"/>
             <label>Subject</label>
-            <input type="text" placeholder="Subject"/>
+            <input type="text" placeholder="Subject" name="email"/>
             <label>Message</label>
             <textarea placeholder="Type Your Message Here"
-            rows={10}/>
+            rows={10} name="message"/>
             <Button variant="outlined" type="submit">Submit</Button>
         </form>
     </div>
