@@ -1,0 +1,17 @@
+@import "/src/styles/variables"; 
+
+.side-social {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: space-between;
+    margin-top: .5em;
+    *{
+        cursor: pointer;
+        fill:$qua-color;
+        transition: transform .25s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

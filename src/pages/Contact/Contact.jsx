@@ -17,6 +17,8 @@ const Contact = ({handleContactClose}) => {
             (result)=>{
                 console.log(result.text); 
                 console.log(form.current); 
+                form.current.reset(); 
+                handleContactClose(); 
             }, (err)=>{console.log(err.text)}
         ); 
     }

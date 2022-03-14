@@ -37,11 +37,12 @@ export const skills = {
     title: "Cloud Computing Services",
     img: <CloudIcon className="card-icon" />,
     data: [
-      { id: "1", title: "AWS DynamoDB" },
-      { id: "2", title: "AWS Lambda" },
-      { id: "3", title: "AWS Amplify" },
+      { id: "1", title: "AWS Amplify" },
+      { id: "2", title: "AWS CloudFront" },
+      { id: "3", title: "AWS Route53" },
       { id: "4", title: "AWS API Gateway" },
-      { id: "5", title: "Google Firestore" },
+      { id: "5", title: "AWS DynamoDB/RDS" },
+      { id: "6", title: "AWS Lambda" },
     ],
   },
 };

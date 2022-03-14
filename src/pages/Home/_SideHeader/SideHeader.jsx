@@ -1,14 +1,8 @@
 import React from "react";
 
-import List from "../../../components/List/List";
+import SideSocial from "../_SideSocial/SideSocial";
 
 import "./SideHeader.scss"; 
-
-const data = [
-    "FrontEnd Development", 
-    "BackEnd Development", 
-    "Cloud Solutions Architect"
-]
 
 const SideHeader = () => {
     return <header className="side-header">
@@ -16,6 +10,7 @@ const SideHeader = () => {
             <h2>Paulo Ferro</h2>
             <img src="/img/engineer.jpg" alt="profile picture" />
             <p>FrontEnd Developer |  Freelancer</p>
+            <SideSocial/>
         </div>
         
     </header>
