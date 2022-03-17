@@ -9,11 +9,20 @@
     right:0;
     width: 80vw; // Fix Width >> include MAX Width in PX
     max-width: 500px;
-    height: 80vh;
+    height: fit-content;
     background: rgba($prim-color, 0.9);
     text-align: center;
     border-radius: 20px;
     padding: 2em; 
+    .contact-message {
+        padding-top: 2em;
+        text-align: center;
+        opacity: .6;
+        span {
+            opacity: 1;
+            color:$qua-color;
+        }
+    }
     &-form {
         display: flex;
         flex-direction: column;

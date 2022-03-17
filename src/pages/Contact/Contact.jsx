@@ -28,6 +28,7 @@ const Contact = ({handleContactClose}) => {
             <h1>Contact</h1>
             <CloseIcon className="close-button" onClick={handleContactClose}/>
         </div>
+        <p className="contact-message">To contact me you can call at <span>0416 292 958</span>, send an e-mail to <span>paulorf87@gmail.com</span> or fill up the form bellow.</p>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" placeholder="Enter Name" name="name"/>

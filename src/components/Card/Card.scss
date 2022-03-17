@@ -2,7 +2,7 @@
 
 .card {
     background: linear-gradient(to top, rgba($trd-color, 0.03), rgba($trd-color, 0.10));
-    min-height: 350px;
+    min-height: 400px;
     width: 80%;
     margin:0 auto;
     border-radius: 10px;
@@ -27,7 +27,7 @@
     }
     .card-icon{
         margin-top: .5em;
-        font-size: 4rem;
+        font-size: 5rem;
         fill: $qua-color;
     }
 }

@@ -19,7 +19,7 @@ const HomeBanner = () => {
     return <header className="home-banner">
         <div className="home-banner-text">
             <h1 className="home-banner-text-title">
-                <span>Paulo Ferro</span> Freelancer User Interface Developer
+                <span>Developer Portfolio</span> UI/UX & WebApps
             </h1>
             <p className="home-banner-text-subtitle">
                 I am a passionate, self-taught computer programmer who believes in impacting society through the use of technology. 

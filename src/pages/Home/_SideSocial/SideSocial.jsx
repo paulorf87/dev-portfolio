@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkedIn, GitHub } from "@mui/icons-material"; 
+import { LinkedIn, GitHub, LibraryBooks } from "@mui/icons-material"; 
 
 import "./SideSocial.scss"; 
 
@@ -12,6 +12,11 @@ const SideSocial = () => {
         <a rel="noreferrer" 
         href="https://www.github.com/paulorf87" target="_blank">
             <GitHub className="github"/>
+        </a>
+        <a rel="noreferrer"
+        id="curriculum" 
+        href="/docs/cs-git.pdf" target="_blank">
+            <LibraryBooks className="github"/>
         </a>
     </div>
 }
