@@ -19,11 +19,13 @@ const HomeBanner = () => {
     return <header className="home-banner">
         <div className="home-banner-text">
             <h1 className="home-banner-text-title">
-                Hey, I'm <span>Paulo</span>, Freelancer <span>User Interface Developer</span>
+                <span>Paulo Ferro</span> Freelancer User Interface Developer
             </h1>
             <p className="home-banner-text-subtitle">
-                Passionate, self-taught computer programmer. Continuously improoving my FrontEnd and BackEnd Development Skills.
-                <span>Click</span> in the link down bellow to see some of my concept projects or to contact me for more information. 
+                I am a passionate, self-taught computer programmer who believes in impacting society through the use of technology. 
+                I am constantly improving my frontend and backend development skills in order to develop different 
+                techniques and processes to ensure quality solutions for my clients. 
+                <a href="/docs/cs-git.pdf" target="_blank">Click here for the CV</a> or the link below to view some of my concept projects or contact me for more information. 
             </p>
             <div className="home-banner-actions">
                 <Button onClick={()=>setContactOpen(true)}>Contact</Button>
