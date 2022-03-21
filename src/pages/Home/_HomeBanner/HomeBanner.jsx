@@ -22,10 +22,12 @@ const HomeBanner = () => {
                 <span>Developer Portfolio</span> UI/UX & WebApps
             </h1>
             <p className="home-banner-text-subtitle">
-                I am a passionate, self-taught computer programmer who believes in impacting society through the use of technology. 
-                I am constantly improving my frontend and backend development skills in order to develop different 
-                techniques and processes to ensure quality solutions for my clients. 
-                <a href="/docs/cs-git.pdf" target="_blank">Click here for the CV</a> or the link below to view some of my concept projects or contact me for more information. 
+                I am a passionate, industrial engineer and self-taught computer programmer, who believes in the merge of 
+                IT (Information Technology) and OT (Operational Technology) as the way for the future. I am continuously 
+                improving my skills in <strong>Front-end and Back-end development</strong>, among other computer science
+                fields, in order to build optimized soultions for businesses and non-profit endeavors.
+                If you would like to know a little more about my work, you can click in the link bellow to contact me, 
+                preview some of my projects or <a href="/docs/dev-cv.pdf" target="_blank"> click here</a> to check my Resume. 
             </p>
             <div className="home-banner-actions">
                 <Button onClick={()=>setContactOpen(true)}>Contact</Button>
