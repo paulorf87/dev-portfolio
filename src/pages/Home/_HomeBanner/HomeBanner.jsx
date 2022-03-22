@@ -27,7 +27,7 @@ const HomeBanner = () => {
                 improving my skills in <strong>Front-end and Back-end development</strong>, among other computer science
                 fields, in order to build optimized soultions for businesses and non-profit endeavors.
                 If you would like to know a little more about my work, you can click in the link bellow to contact me, 
-                preview some of my projects or <a href="/docs/dev-cv.pdf" target="_blank"> click here</a> to check my Resume. 
+                preview some of my projects or <a href="/docs/dev-resume.pdf" target="_blank"> click here</a> to check my Resume. 
             </p>
             <div className="home-banner-actions">
                 <Button onClick={()=>setContactOpen(true)}>Contact</Button>

@@ -15,7 +15,7 @@ const SideSocial = () => {
         </a>
         <a rel="noreferrer"
         id="curriculum" 
-        href="/docs/dev-cv.pdf" target="_blank">
+        href="/docs/dev-resume.pdf" target="_blank">
             <LibraryBooks className="github"/>
         </a>
     </div>
