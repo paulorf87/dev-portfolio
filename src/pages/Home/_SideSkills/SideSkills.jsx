@@ -8,17 +8,17 @@ const data ={
     left:[
         "Project Management", 
         "Agile | SCRUM", 
-        "Software Architecture", 
+        "Software Engineering", 
         "Computer Networks", 
         "Internet of Things"
     ], 
     right:[
         "MS Office, Excel, Project, Visio",
-        "UML",   
+        "JIRA",   
         "Git | GitHub", 
         "Web Development", 
         "Data Science", 
-        "Postman"
+        "Power BI"
     ]
 } 
     

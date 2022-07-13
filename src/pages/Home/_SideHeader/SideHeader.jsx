@@ -9,7 +9,7 @@ const SideHeader = () => {
         <div className="side-header-title">
             <h2>Paulo Ferro</h2>
             <img src="/img/paulo.jpg" alt="profile" />
-            <p>FrontEnd Developer |  Freelancer</p>
+            <p>Freelancer Developer </p>
             <SideSocial/>
         </div>
         

@@ -17,18 +17,16 @@
         
     }
     main{
-        .card-subtitle {
-            padding-bottom: 1em;
-            color: $qua-color;
-        }
-        .card-intro{
-            padding-top:.5em;
-        }
+       
+        margin-bottom: 1em;
     }
     .card-icon{
-        margin-top: .5em;
-        font-size: 5rem;
+        font-size: 7rem;
         fill: $qua-color;
+        transition: all .25s ease;
+        &:hover{
+            font-size: 7.5rem;
+        }
     }
 }
 

@@ -15,7 +15,7 @@ const SideBio = () => {
             
         </p>
         <p>
-            Focusing initially in front-end development with emphasis in React JS, 
+            Focusing front-end and full stack development, with emphasis in Node & React JS, 
             Paulo is currently seeking new opportunities in software development related areas to 
             challenge himself and have a real impact driving business outcomes for organisations.     
         </p>

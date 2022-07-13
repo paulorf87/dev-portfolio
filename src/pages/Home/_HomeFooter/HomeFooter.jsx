@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./HomeFooter.scss"; 
+
 
 const HomeFooter = () => {
     return <footer className="home-footer">

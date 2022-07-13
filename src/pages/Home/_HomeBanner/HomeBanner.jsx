@@ -19,15 +19,16 @@ const HomeBanner = () => {
     return <header className="home-banner">
         <div className="home-banner-text">
             <h1 className="home-banner-text-title">
-                <span>Developer Portfolio</span> UI/UX & WebApps
+                <span>Developer Portfolio</span> <br/>Front End | Full Stack
             </h1>
             <p className="home-banner-text-subtitle">
                 I am a passionate, industrial engineer and self-taught computer programmer, who believes in the merge of 
                 IT (Information Technology) and OT (Operational Technology) as the way for the future. I am continuously 
                 improving my skills in <strong>Front-end and Back-end development</strong>, among other computer science
                 fields, in order to build optimized soultions for businesses and non-profit endeavors.
+{/*                 
                 If you would like to know a little more about my work, you can click in the link bellow to contact me, 
-                preview some of my projects or <a href="/docs/dev-resume.pdf" target="_blank"> click here</a> to check my Resume. 
+                preview some of my projects or <a href="/docs/dev-resume.pdf" target="_blank"> click here</a> to check my Resume.  */}
             </p>
             <div className="home-banner-actions">
                 <Button onClick={()=>setContactOpen(true)}>Contact</Button>
